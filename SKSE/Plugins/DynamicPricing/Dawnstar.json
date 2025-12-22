@@ -1,0 +1,65 @@
+[
+  {
+    "description": "DAWNSTAR GLOBAL SURPLUS: Mining town abundance. Ores (Iron/Quicksilver) and basic weaponry are cheap.",
+    "itemKeyword": ["TGR_DA_GlobalSurplus"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 0.7,
+    "sellMult": 0.7
+  },
+  {
+    "description": "DAWNSTAR GLOBAL DEFICIT: Frozen wasteland. Survival goods (Food, Wood, Warmth) are critical imports.",
+    "itemKeyword": ["TGR_DA_GlobalDeficit"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 1.5,
+    "sellMult": 1.5
+  },
+  {
+    "description": "QUICKSILVER RUSH: Home to the Quicksilver mine. Massive local supply drives prices into the ground.",
+    "itemKeyword": ["TGR_DA_Quicksilver"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 0.8,
+    "sellMult": 0.5
+  },
+  {
+    "description": "IRON BREAKER: Iron Breaker mine floods the market with raw iron and cheap tools.",
+    "itemKeyword": ["TGR_DA_IronBreaker"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 0.9,
+    "sellMult": 0.6
+  },
+  {
+    "description": "SALT TRADE: Port city surplus. Salt is used for curing and is abundant.",
+    "itemKeyword": ["TGR_DA_SaltTrade"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 0.6,
+    "sellMult": 0.4
+  },
+  {
+    "description": "THE FROZEN HEARTH: Critical demand for fuel and warmth. Firewood is life.",
+    "itemKeyword": ["TGR_DA_FrozenHearth"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 1.4,
+    "sellMult": 1.2
+  },
+  {
+    "description": "GREEN DEFICIT: Permafrost prevents farming. Fresh vegetables cost a fortune.",
+    "itemKeyword": ["TGR_DA_GreenDeficit"],
+    "conditions": {
+      "locations": ["DawnstarLocation"]
+    },
+    "buyMult": 1.3,
+    "sellMult": 1.2
+  }
+]

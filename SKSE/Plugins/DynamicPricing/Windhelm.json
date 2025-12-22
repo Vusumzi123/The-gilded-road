@@ -1,0 +1,74 @@
+[
+  {
+    "description": "WINDHELM GLOBAL SURPLUS: A city on war footing. Weapons, Heavy Armor, and Ebony are abundant.",
+    "itemKeyword": ["TGR_WH_GlobalSurplus"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 0.85,
+    "sellMult": 0.85
+  },
+  {
+    "description": "WINDHELM GLOBAL DEFICIT: The frozen tundra yields no crops. Wheat, wood, and cloth are expensive imports.",
+    "itemKeyword": ["TGR_WH_GlobalDeficit"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 1.3,
+    "sellMult": 1.3
+  },
+  {
+    "description": "GLOOMBOUND MONOPOLY: Nearby Orc stronghold mines produce massive ebony. It is surprisingly cheap here.",
+    "itemKeyword": ["TGR_WH_Gloombound"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 0.7,
+    "sellMult": 0.4
+  },
+  {
+    "description": "THE WAR MACHINE: Oengul War-Anvil pumps out cheap steel for the rebellion. The market is flooded.",
+    "itemKeyword": ["TGR_WH_WarMachine"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 0.8,
+    "sellMult": 0.5
+  },
+  {
+    "description": "THE STARVATION: The Starvation Premium. Fresh crops are non-existent. Merchants pay double for bread.",
+    "itemKeyword": ["TGR_WH_Starvation"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 1.5,
+    "sellMult": 1.4
+  },
+  {
+    "description": "VOLCANIC FLORA: These grow like weeds in the steam vents. Alchemists consider them low-value trash.",
+    "itemKeyword": ["TGR_WH_VolcanicFlora"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 0.6,
+    "sellMult": 0.3
+  },
+  {
+    "description": "GREY QUARTER COMFORTS: High demand for luxury comforts and moon sugar to escape the cold and misery.",
+    "itemKeyword": ["TGR_WH_Comforts"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 1.3,
+    "sellMult": 1.2
+  },
+  {
+    "description": "HORKER INDUSTRY: The only abundant meat source. Hunters on the coast flood the market.",
+    "itemKeyword": ["TGR_WH_HorkerIndustry"],
+    "conditions": {
+      "locations": ["WindhelmLocation"]
+    },
+    "buyMult": 0.6,
+    "sellMult": 0.4
+  }
+]

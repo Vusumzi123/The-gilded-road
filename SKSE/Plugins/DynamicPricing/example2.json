@@ -1,0 +1,53 @@
+[
+    {
+        "description" : "Better priced potions when you yourself are an alchemist!",
+        "itemKeyword" : ["VendorItemPotion", "VendorItemPoison"],
+        "conditions" : {
+            "perk" : "Alchemist00"
+        },
+        "buyMult" : 0.9,
+        "sellMult" : 1.1
+    },
+    {
+        "description" : "10% senior discount :D",
+        "conditions" : {
+            "global" : {
+                "name" : "GameDaysPassed",
+                "value" : 1000,
+                "comparison" : ">"
+            }
+        },
+        "buyMult" : 0.9
+    },
+    {
+        "description" : "Due to the civil war and shortage of supplies for soldiers, in Windhelm you can sell weapons and armor for more money, but they also cost more.",
+        "itemKeyword" : ["VendorItemWeapon", "VendorItemArmor"],
+        "conditions" : {
+            "locations" : ["WindhelmLocation"]
+        },
+        "buyMult" : 1.2,
+        "sellMult" : 1.2
+    },
+    {
+        "description" : "More favorable prices for all Orc tribes, after completing The Cursed Tribe quest.",
+        "conditions" : {
+            "vendorFactions" : ["OrcFriendFaction"],
+            "quest" : {
+                "id" : "DA06",
+                "stage" : 200,
+                "comparison" : "="
+            }
+        },
+        "buyMult" : 0.9,
+        "sellMult" : 1.1
+    },
+    {
+        "description" : "On Middas days you get better prices from vendors of the opposite sex.",
+        "conditions" : {
+            "conditionForm" : "MiddasPricingPerk",
+            "_whatsThis" : "with 'conditionForm' you can specify the ID of a Perk, its Conditions are evaluated at runtime to see if this rule should apply. Subject is always the player, Target is always the bartering vendor."
+        },
+        "buyMult" : 0.9,
+        "sellMult" : 1.1
+    }
+]
