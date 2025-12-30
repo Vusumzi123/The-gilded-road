@@ -2,7 +2,7 @@
 ### Dynamic Regional Economy for Skyrim SE
 
 > *"Gold isn't found in mines, traveler. It's found on the road."* 
-> - Gaius Platorius, Imperial Trade Census
+> *-- Gaius Platorius, Imperial Trade Census*
 
 **The Gilded Road** is a lightweight, script-free economy overhaul that transforms Skyrim's static merchants into a dynamic regional trading simulation. By leveraging **Keyword Item Distributor (KID)**, this mod assigns "Surplus" and "Deficit" traits to items based on the geography, culture, and industry of each Hold.
 
