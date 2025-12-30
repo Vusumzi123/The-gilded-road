@@ -1,0 +1,56 @@
+[
+  {
+    "description": "MORTHAL GLOBAL SURPLUS: Swamp Apothecary. Rare swamp ingredients are abundant.",
+    "itemKeyword": ["TGR_MO_GlobalSurplus"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 0.75,
+    "sellMult": 0.75
+  },
+  {
+    "description": "MORTHAL GLOBAL DEFICIT: No Local Smith. Basic metal tools are imported.",
+    "itemKeyword": ["TGR_MO_GlobalDeficit"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 1.3,
+    "sellMult": 1.3
+  },
+  {
+    "description": "TOXIC FLORA: Poisons and toxic ingredients are dangerously common.",
+    "itemKeyword": ["TGR_MO_Toxins"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 0.8,
+    "sellMult": 0.6
+  },
+  {
+    "description": "SUPERSTITION: High demand for magical protection (Soul Gems, Spells) vs Monsters.",
+    "itemKeyword": ["TGR_MO_MagicDemand"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 1.8,
+    "sellMult": 1.6
+  },
+  {
+    "description": "IMPORTED STEEL: Finished steel goods command a premium due to lack of smiths.",
+    "itemKeyword": ["TGR_MO_ImportedSteel"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 1.3,
+    "sellMult": 1.2
+  },
+  {
+    "description": "LUMBER MILL: Functional mill keeps wood prices stable/slightly cheap.",
+    "itemKeyword": ["TGR_MO_Lumber"],
+    "conditions": {
+      "locations": ["MorthalLocation"]
+    },
+    "buyMult": 0.9,
+    "sellMult": 0.9
+  }
+]
