@@ -3,7 +3,8 @@
     "description": "FALKREATH GLOBAL SURPLUS: Wood and Hides. Economy runs on timber and hunting.",
     "itemKeyword": ["TGR_FA_GlobalSurplus"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 0.6,
     "sellMult": 0.6
@@ -12,16 +13,18 @@
     "description": "FALKREATH GLOBAL DEFICIT: Manufactured Goods. Rural backwater lacking civilized industry.",
     "itemKeyword": ["TGR_FA_GlobalDeficit"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
-    "buyMult": 1.3,
-    "sellMult": 1.3
+    "buyMult": 2.6,
+    "sellMult": 2.6
   },
   {
     "description": "PINE FOREST: Lumber is everywhere and dirt cheap in the deep pine forests.",
     "itemKeyword": ["TGR_FA_Timber"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 0.8,
     "sellMult": 0.7
@@ -30,7 +33,8 @@
     "description": "HUNTER'S BOUNTY: Hunting is the primary food source; meat and hides are abundant.",
     "itemKeyword": ["TGR_FA_Hunters"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 0.9,
     "sellMult": 0.8
@@ -39,7 +43,8 @@
     "description": "METAL SCARCITY: No significant mining here. Refined metals are rare.",
     "itemKeyword": ["TGR_FA_NoMining"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 1.4,
     "sellMult": 1.2
@@ -48,7 +53,8 @@
     "description": "ACADEMIC DROUGHT: No academic presence means books and magic are luxury imports.",
     "itemKeyword": ["TGR_FA_Academic"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 1.5,
     "sellMult": 1.3
@@ -57,7 +63,8 @@
     "description": "LOCAL SMITHING: Lacking local metal, blacksmiths must import raw materials.",
     "itemKeyword": ["TGR_FA_Smithing"],
     "conditions": {
-      "locations": ["FalkreathLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.1

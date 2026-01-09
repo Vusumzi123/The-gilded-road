@@ -3,45 +3,45 @@
     "description": "SPECIALIST: Blacksmiths pay premium for Ores and Ingots.",
     "itemKeyword": ["VendorItemOreIngot"],
     "conditions": {
+      "conditionForm": ["TGR_PartnerPerkMult"],
       "vendorFactions": ["JobBlacksmithFaction"]
     },
-    "buyMult": 1.0,
     "sellMult": 1.2
   },
   {
     "description": "SPECIALIST: Alchemists pay premium for Ingredients.",
     "itemKeyword": ["VendorItemIngredient", "VendorItemAnimalPart"],
     "conditions": {
+      "conditionForm": ["TGR_PartnerPerkMult"],
       "vendorFactions": ["JobApothecaryFaction"]
     },
-    "buyMult": 1.0,
     "sellMult": 1.2
   },
   {
     "description": "SPECIALIST: Wizards (College & Court) pay premium for Magic items.",
     "itemKeyword": ["VendorItemSpellTome", "VendorItemScroll", "VendorItemSoulGem"],
     "conditions": {
+      "conditionForm": ["TGR_PartnerPerkMult"],
       "vendorFactions": ["JobSpellFaction", "JobCourtWizardFaction", "CollegeofWinterholdFaction"]
     },
-    "buyMult": 1.0,
     "sellMult": 1.25
   },
   {
     "description": "SPECIALIST: Innkeepers pay premium for Raw Food (to cook).",
     "itemKeyword": ["VendorItemFoodRaw"],
     "conditions": {
+      "conditionForm": ["TGR_PartnerPerkMult"],
       "vendorFactions": ["JobInnkeeperFaction"]
     },
-    "buyMult": 1.0,
     "sellMult": 1.15
   },
   {
     "description": "SPECIALIST: Khajiit Caravans pay premium for Illicit Goods, Luxury Items & Jewelry.",
     "itemKeyword": ["TGR_IsDrug", "VendorItemSkooma", "TGR_IsLuxury", "VendorItemJewelry"],
     "conditions": {
+      "conditionForm": ["TGR_PartnerPerkMult"],
       "vendorFactions": ["CaravanMerchantFaction"]
     },
-    "buyMult": 1.0,
     "sellMult": 1.3
   }
 ]

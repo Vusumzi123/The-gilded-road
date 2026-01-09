@@ -1,0 +1,42 @@
+[
+  {
+    "description": "DIFFICULTY: NOVICE. The economy favors the Dragonborn.",
+    "conditions": {
+        "conditionForm" : "TGR_DifficultyNovice"
+    },
+    "buyMult": 0.8,
+    "sellMult": 1.25
+  },
+  {
+    "description": "DIFFICULTY: APPRENTICE. A forgiving economy.",
+    "conditions": {
+      "conditionForm" : "TGR_DifficultyApprentice"
+    },
+    "buyMult": 0.9,
+    "sellMult": 1.1
+  },
+  {
+    "description": "DIFFICULTY: ADEPT. Standard Skyrim economy.",
+    "conditions": {
+      "conditionForm" : "TGR_DifficultyAdept"
+    },
+    "buyMult": 1.0,
+    "sellMult": 1.0
+  },
+  {
+    "description": "DIFFICULTY: EXPERT. Inflation is high. Profits are slim.",
+    "conditions": {
+      "conditionForm" : "TGR_DifficultyExpert"
+    },
+    "buyMult": 1.25,
+    "sellMult": 0.85
+  },
+  {
+    "description": "DIFFICULTY: MASTER. The Gilded Road is paved with debt. Trade routes required.",
+    "conditions": {
+      "conditionForm" : "TGR_DifficultyMaster"
+    },
+    "buyMult": 1.6,
+    "sellMult": 0.65
+  }
+]

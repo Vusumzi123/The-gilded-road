@@ -3,7 +3,8 @@
     "description": "As the \"breadbasket\" of Skyrim, food and common clothing are abundant.",
     "itemKeyword": ["TGR_WR_GlobalSurplus"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.85,
     "sellMult": 0.85
@@ -12,16 +13,18 @@
     "description": "High markup for the Cloud District nobles; ores must be imported.",
     "itemKeyword": ["TGR_WR_GlobalDeficit"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
-    "buyMult": 1.3,
-    "sellMult": 1.3
+    "buyMult": 2.6,
+    "sellMult": 2.6
   },
   {
     "description": "Whiterun is the center of Skyrim’s farming. Massive supply. Merchants sell cheap but will barely pay for more.",
     "itemKeyword": ["TGR_WR_AgriSurplus"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.5,
     "sellMult": 0.24
@@ -30,7 +33,8 @@
     "description": "Plains flora like Lavender and Tundra Cotton grow everywhere in Whiterun; very low resale value here.",
     "itemKeyword": ["TGR_WR_PlainsFlora"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.59,
     "sellMult": 0.36
@@ -39,7 +43,8 @@
     "description": "Whiterun's local farms provide a constant flow of livestock products like beef, hides, and leather.",
     "itemKeyword": ["TGR_WR_LivestockStaples"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.71,
     "sellMult": 0.48
@@ -48,7 +53,8 @@
     "description": "Whiterun is the 'Forge of Skyrim.' Common utility gear and iron/steel items are easy to find and mass-produced.",
     "itemKeyword": ["TGR_WR_BasicUtilityGear"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.95,
     "sellMult": 0.71
@@ -57,7 +63,8 @@
     "description": "Home of the Honningbrew Meadery. Buying local brews is cheap, but selling them here is pointless.",
     "itemKeyword": ["TGR_WR_LocalBrews"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 0.83,
     "sellMult": 0.48
@@ -66,7 +73,8 @@
     "description": "High demand for luxury items in the Cloud District. Merchants charge a lot and pay well to restock fine apparel.",
     "itemKeyword": ["TGR_WR_LuxuryImports"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 1.24,
     "sellMult": 1.1
@@ -75,7 +83,8 @@
     "description": "Essential spices and salts come from the coast or caravans, driving up prices in this inland hub.",
     "itemKeyword": ["TGR_WR_ExoticSpices"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.2
@@ -84,7 +93,8 @@
     "description": "Dwemer scrap is not local to Whiterun and must be imported from the Reach or the Rift.",
     "itemKeyword": ["TGR_WR_DwemerScrap"],
     "conditions": {
-      "locations": ["WhiterunLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
     },
     "buyMult": 1.3,
     "sellMult": 1.1

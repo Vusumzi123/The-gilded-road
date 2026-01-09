@@ -1,0 +1,78 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Exit-9B/MCM-Helper/main/docs/config.schema.json",
+    "modName": "The Gilded Road",
+    "displayName": "The Gilded Road",
+    "minMcmVersion": 6,
+    "pages": [
+        {
+            "pageDisplayName": "General",
+            "content": [
+                {
+                    "text": "Main Control",
+                    "type": "header"
+                },
+                {
+                    "text": "Mod Active",
+                    "type": "toggle",
+                    "help": "Toggles the main functionality of the mod.",
+                    "groupControl": 1,
+                    "valueOptions": {
+                        "sourceType": "GlobalValue",
+                        "sourceForm": "The Gilded Road.esp|806"
+                    }
+                },
+                {
+                    "text": "Mod Features",
+                    "type": "header"
+                },
+                {
+                    "text": "Locational Prices",
+                    "type": "toggle",
+                    "groupCondition": 1,
+                    "help": "Enable or disable the Locational multipliers.",
+                    "valueOptions": {
+                        "sourceType": "GlobalValue",
+                        "sourceForm": "The Gilded Road.esp|D74"
+                    }
+                },
+                {
+                    "text": "Level Multiplier",
+                    "type": "toggle",
+                    "groupCondition": 1,
+                    "help": "Enable or disable the level multiplier global.",
+                    "valueOptions": {
+                        "sourceType": "GlobalValue",
+                        "sourceForm": "The Gilded Road.esp|801"
+                    }
+                },
+                {
+                    "text": "Partners Multiplier",
+                    "type": "toggle",
+                    "groupCondition": 1,
+                    "help": "Enable or disable the partners multiplier global.",
+                    "valueOptions": {
+                        "sourceType": "GlobalValue",
+                        "sourceForm": "The Gilded Road.esp|807"
+                    }
+                },
+                {
+                    "text": "Difficulty Level",
+                    "type": "stepper",
+                    "groupCondition": 1,
+                    "help": "Choose the difficulty level for the mod features.",
+                    "valueOptions": {
+                        "sourceType": "GlobalValue",
+                        "sourceForm": "The Gilded Road.esp|80A",
+                        "options": [
+                            "Novice",
+                            "Apprentice",
+                            "Adept",
+                            "Expert",
+                            "Master"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

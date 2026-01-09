@@ -3,7 +3,8 @@
     "description": "WINTERHOLD GLOBAL SURPLUS: Arcane Goods. Soul Gems, Spells, Scrolls are common.",
     "itemKeyword": ["TGR_WI_GlobalSurplus"],
     "conditions": {
-      "locations": ["WinterholdLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
     },
     "buyMult": 0.6,
     "sellMult": 0.6
@@ -12,16 +13,18 @@
     "description": "WINTERHOLD GLOBAL DEFICIT: Survival Goods (Food, Wood, Metals). Extreme scarcity.",
     "itemKeyword": ["TGR_WI_GlobalDeficit"],
     "conditions": {
-      "locations": ["WinterholdLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
     },
-    "buyMult": 2.0,
-    "sellMult": 2.0
+    "buyMult": 2.6,
+    "sellMult": 2.6
   },
   {
     "description": "COLLEGE REJECTS: Staves and Robes flooded by students.",
     "itemKeyword": ["TGR_WI_CollegeOutput"],
     "conditions": {
-      "locations": ["WinterholdLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
     },
     "buyMult": 0.8,
     "sellMult": 0.6
@@ -30,7 +33,8 @@
     "description": "FROST YIELD: Ice Wraiths and Atronachs are common pests.",
     "itemKeyword": ["TGR_WI_FrostYield"],
     "conditions": {
-      "locations": ["WinterholdLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
     },
     "buyMult": 0.7,
     "sellMult": 0.5
@@ -39,7 +43,8 @@
     "description": "WARMTH PREMIUM: Alcohol and Fur are critical for survival.",
     "itemKeyword": ["TGR_WI_Warmth"],
     "conditions": {
-      "locations": ["WinterholdLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.1

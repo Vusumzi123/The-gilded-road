@@ -3,7 +3,8 @@
     "description": "SOLITUDE GLOBAL SURPLUS: Port city flooded with imports. Luxury goods and wine are common.",
     "itemKeyword": ["TGR_SO_GlobalSurplus"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 0.9,
     "sellMult": 0.9
@@ -12,16 +13,18 @@
     "description": "SOLITUDE GLOBAL DEFICIT: The city produces nothing. High demand for raw materials (Ores/Hides) which must be imported.",
     "itemKeyword": ["TGR_SO_GlobalDeficit"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
-    "buyMult": 1.25,
-    "sellMult": 1.25
+    "buyMult": 2.5,
+    "sellMult": 2.5
   },
   {
     "description": "EAST EMPIRE SATURATION: The market is flooded with fine clothes and spiced wine. Buying is cheap, selling is a loss.",
     "itemKeyword": ["TGR_SO_EastEmpire"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 0.8,
     "sellMult": 0.4
@@ -30,7 +33,8 @@
     "description": "LEGION SUPPLY: The Legion is preparing for war. They pay a premium for iron, steel, and weapons.",
     "itemKeyword": ["TGR_SO_LegionSupply"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 1.4,
     "sellMult": 1.2
@@ -39,7 +43,8 @@
     "description": "NOBLE MATERIALS: Jewelers have plenty of rings but starve for raw Gold, Silver, and Gems to craft custom pieces.",
     "itemKeyword": ["TGR_SO_NobleMaterials"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 1.3,
     "sellMult": 1.15
@@ -48,7 +53,8 @@
     "description": "FUR FASHION: Rugged northern furs are the trend at court, but nobles refuse to hunt. High markup on pristine pelts.",
     "itemKeyword": ["TGR_SO_FurFashion"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 1.5,
     "sellMult": 1.3
@@ -57,7 +63,8 @@
     "description": "MAGIC BAN: Stigma against necromancy (Potema). Dark magic items are considered contraband and yield trash prices.",
     "itemKeyword": ["TGR_SO_MagicBan"],
     "conditions": {
-      "locations": ["SolitudeLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["HaafingarHoldLocation","SolitudeLocation"]
     },
     "buyMult": 0.5,
     "sellMult": 0.2

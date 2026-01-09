@@ -3,7 +3,8 @@
     "description": "RIFTEN GLOBAL SURPLUS: The Rift is lush and full of mead. Ingredients and Alcohol are generally cheap.",
     "itemKeyword": ["TGR_RI_GlobalSurplus"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 0.85,
     "sellMult": 0.85
@@ -12,16 +13,18 @@
     "description": "RIFTEN GLOBAL DEFICIT: The Rift has no mines. Metal ingots and heavy gear are expensive imports.",
     "itemKeyword": ["TGR_RI_GlobalDeficit"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
-    "buyMult": 1.4,
-    "sellMult": 1.4
+    "buyMult": 2.8,
+    "sellMult": 2.8
   },
   {
     "description": "BLACK-BRIAR MONOPOLY: The city is drowning in mead. It is cheaper than water here, and selling it is pointless.",
     "itemKeyword": ["TGR_RI_BlackBriar"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 0.6,
     "sellMult": 0.25
@@ -30,7 +33,8 @@
     "description": "LAKE BOUNTY: Lake Honrich is teeming with fish. Fishermen sell them for pennies.",
     "itemKeyword": ["TGR_RI_LakeBounty"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 0.6,
     "sellMult": 0.3
@@ -39,7 +43,8 @@
     "description": "THIEVES MARKET: 'Fenced' goods flood the market. Light armor and tools of the trade are easy to find cheap.",
     "itemKeyword": ["TGR_RI_ThievesMarket"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 0.75,
     "sellMult": 0.5
@@ -48,7 +53,8 @@
     "description": "HEAVY METAL DEFICIT: Balimund is the only smith and has to import every ingot. He pays a premium for Iron/Steel.",
     "itemKeyword": ["TGR_RI_HeavyDeficit"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 1.4,
     "sellMult": 1.2
@@ -57,7 +63,8 @@
     "description": "EXOTIC IMPORTS: High demand for Skooma and Moon Sugar despite the vice culture. These are imported from Elsweyr/Morrowind.",
     "itemKeyword": ["TGR_RI_ExoticImports"],
     "conditions": {
-      "locations": ["RiftenLocation"]
+      "conditionForm" : "TGR_LocationMult",
+      "locations": ["RiftHoldLocation","RiftenLocation"]
     },
     "buyMult": 1.5,
     "sellMult": 1.3
