@@ -4,37 +4,37 @@
     "itemKeyword": ["TGR_MO_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
-    "buyMult": 0.75,
-    "sellMult": 0.75
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "MORTHAL GLOBAL DEFICIT: No Local Smith. Basic metal tools are imported.",
     "itemKeyword": ["TGR_MO_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
-    "buyMult": 2.6,
-    "sellMult": 2.6
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "TOXIC FLORA: Poisons and toxic ingredients are dangerously common.",
     "itemKeyword": ["TGR_MO_Toxins"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
-    "buyMult": 0.8,
-    "sellMult": 0.6
+    "buyMult": 0.85,
+    "sellMult": 0.91
   },
   {
     "description": "SUPERSTITION: High demand for magical protection (Soul Gems, Spells) vs Monsters.",
     "itemKeyword": ["TGR_MO_MagicDemand"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
     "buyMult": 1.8,
     "sellMult": 1.6
@@ -44,7 +44,7 @@
     "itemKeyword": ["TGR_MO_ImportedSteel"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
     "buyMult": 1.3,
     "sellMult": 1.2
@@ -54,9 +54,9 @@
     "itemKeyword": ["TGR_MO_Lumber"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["HjaalmarchHoldLocation","MorthalLocation"]
+      "locations": ["HjaalmarchHoldLocation"]
     },
     "buyMult": 0.9,
-    "sellMult": 0.9
+    "sellMult": 0.93
   }
 ]

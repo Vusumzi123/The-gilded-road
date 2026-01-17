@@ -4,59 +4,59 @@
     "itemKeyword": ["TGR_MK_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 0.7,
-    "sellMult": 0.7
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "MARKARTH GLOBAL DEFICIT: Provisions (Food/Wood) are expensive due to the rocky terrain.",
     "itemKeyword": ["TGR_MK_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 3.0,
-    "sellMult": 3.0
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "SILVER-BLOOD MONOPOLY: The mines use slave labor. Silver and Gold are dirt cheap, and selling them locally yields almost nothing.",
     "itemKeyword": ["TGR_MK_SilverBlood"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 0.6,
-    "sellMult": 0.3
+    "buyMult": 0.85,
+    "sellMult": 0.93
   },
   {
     "description": "DWEMER SCRAP FLOOD: Markarth is built on a Dwemer city. Scrap is everywhere. Merchants are flooded with it.",
     "itemKeyword": ["TGR_MK_DwemerTech"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 0.7,
-    "sellMult": 0.4
+    "buyMult": 0.85,
+    "sellMult": 0.94
   },
   {
     "description": "REACH FAUNA FLORA: Juniper berries and moss grow naturally on the crags and are considered weeds by locals, goats and saber cats.",
     "itemKeyword": ["TGR_MK_ReachFaunaFlora"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 0.5,
-    "sellMult": 0.25
+    "buyMult": 0.85,
+    "sellMult": 0.93
   },
   {
     "description": "IMPORTED PROVISIONS: Farming on stone is impossible. Food is hauled up steep cliffs from the lowlands.",
     "itemKeyword": ["TGR_MK_ImportedProvisions"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 1.35,
+    "buyMult": 1.3,
     "sellMult": 1.12
   },
   {
@@ -64,29 +64,29 @@
     "itemKeyword": ["TGR_MK_TimberDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 1.4,
-    "sellMult": 1.15
+    "buyMult": 1.8,
+    "sellMult": 1.65
   },
   {
     "description": "FORSWORN TRASH: Merchants consider 'savage' gear illegal or trash and will barely pay for it.",
     "itemKeyword": ["TGR_MK_ForswornGear"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 0.4,
-    "sellMult": 0.2
+    "buyMult": 0.85,
+    "sellMult": 0.90
   },
   {
     "description": "CIVILIZED GOODS: Markarth is rough and industrial. Scholars and fine tailors are rare.",
     "itemKeyword": ["TGR_MK_CivilizedGoods"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["ReachHoldLocation","MarkarthLocation"]
+      "locations": ["ReachHoldLocation"]
     },
-    "buyMult": 1.2,
-    "sellMult": 1.1
+    "buyMult": 1.4,
+    "sellMult": 1.6
   }
 ]

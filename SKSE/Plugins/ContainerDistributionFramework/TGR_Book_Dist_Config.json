@@ -1,0 +1,303 @@
+{ 
+    "rules": [
+        {
+            "friendlyName": "VOLUME I: WHITERUN (The Hub) Sold by Belethor (Whiterun) and Lucan (Riverwood)",
+            "conditions": {
+                "containers" : [
+                    "MerchantWhiterunBelethorsGoodsChest",
+                    "MerchantRiverwoodTraderChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol1_Whiterun" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME II: THE REACH (Silver & Stone) Sold by Arnleif and Sons (Markarth)",
+            "conditions": {
+                "containers" : [
+                    "MerchantMarkarthArnleifAndSonsChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol2_Reach" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME III: THE RIFT (The Golden Gutter)  Sold by The Pawned Prawn (Riften)",
+            "conditions": {
+                "containers" : [
+                    "MerchantRiftenPawnedPrawnChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol3_Rift" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME IV: HAAFINGAR (The Mask of Empire) Sold by Bits and Pieces (Solitude)",
+            "conditions": {
+                "containers" : [
+                    "MerchantSolitudeBitsAndPieces"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol4_Solitude" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME V: EASTMARCH (Kings and Traitors) Sold by Niranye (Windhelm) and Revyn Sadri (Windhelm)",
+            "conditions": {
+                "containers" : [
+                    "MerchantWindhelmNiranyeChest",
+                    "MerchantWindhelmRevynSadriChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol5_Eastmarch" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME VI: FALKREATH (Dead Man's Market) Sold by Gray Pine Goods (Falkreath)",
+            "conditions": {
+                "containers" : [
+                    "MerchantFalkreathGrayPineGoodsChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol6_Falkreath" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME VII: HJAALMARCH (The Drowning Town) Sold by Lami (Morthal)",
+            "conditions": {
+                "containers" : [
+                    "MerchantMorthalLamiChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol7_Hjaalmarch" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "VOLUME VIII: THE NORTHERN COAST Sold by Birna (Winterhold)",
+            "conditions": {
+                "containers" : [
+                    "MerchantWinterholdBirnaChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol8_North" ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "friendlyName": "Caravans book stock All thomes",
+            "conditions": {
+                "containers" : [
+                    "MerchantCaravanAChest",
+                    "MerchantCaravanBChest",
+                    "MerchantCaravanCChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol1_Whiterun" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol2_Reach" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol3_Rift" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol4_Solitude" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol5_Eastmarch" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol6_Falkreath" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol7_Hjaalmarch" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol8_North" ],
+                    "count": 1,
+                    "chance": 35
+                },
+                {
+                    "add": [ "TGR_Book_Vol9_Partners" ],
+                    "count": 1,
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "friendlyName": "Bandit Leader Chests All Volumes",
+            "conditions": {
+                "containers" : [
+                    "TreasBanditChestBoss"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol1_Whiterun" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol2_Reach" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol3_Rift" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol4_Solitude" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol5_Eastmarch" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol6_Falkreath" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol7_Hjaalmarch" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol8_North" ],
+                    "count": 1,
+                    "chance": 5
+                },
+                {
+                    "add": [ "TGR_Book_Vol9_Partners" ],
+                    "count": 1,
+                    "chance": 5
+                }
+            ]
+        },
+        {
+            "friendlyName": "Warlock and Vampire Lord Boss Chests - Volumes IV, VII, VIII",
+            "conditions": {
+                "containers" : [
+                    "TreasWarlockChestBoss",
+                    "TreasVampireChestBoss"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol4_Solitude" ],
+                    "count": 1,
+                    "chance": 10
+                },
+                {
+                    "add": [ "TGR_Book_Vol7_Hjaalmarch" ],
+                    "count": 1,
+                    "chance": 10
+                },
+                {
+                    "add": [ "TGR_Book_Vol8_North" ],
+                    "count": 1,
+                    "chance": 15
+                }
+            ]
+        },
+        {
+            "friendlyName": "Warlock and Vampire Lord Boss Chests - Volumes IV, VII, VIII",
+            "conditions": {
+                "containers" : [
+                    "TreasForswornChestBoss"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "TGR_Book_Vol2_Reach" ],
+                    "count": 1,
+                    "chance": 10
+                }
+            ]
+        },
+        {
+            "friendlyName": "Giant Boss Chests - Volumes I, V, VI",
+            "conditions": {
+                "containers" : [
+                    "TreasGiantChestBoss"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ 
+                        "TGR_Book_Vol1_Whiterun",
+                        "TGR_Book_Vol6_Falkreath",
+                        "TGR_Book_Vol5_Eastmarch"
+                    ],
+                    "count": 1,
+                    "chance": 10
+                }
+            ]
+        }
+    ]
+}

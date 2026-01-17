@@ -4,47 +4,47 @@
     "itemKeyword": ["TGR_FA_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
-    "buyMult": 0.6,
-    "sellMult": 0.6
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "FALKREATH GLOBAL DEFICIT: Manufactured Goods. Rural backwater lacking civilized industry.",
     "itemKeyword": ["TGR_FA_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
-    "buyMult": 2.6,
-    "sellMult": 2.6
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "PINE FOREST: Lumber is everywhere and dirt cheap in the deep pine forests.",
     "itemKeyword": ["TGR_FA_Timber"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
-    "buyMult": 0.8,
-    "sellMult": 0.7
+    "buyMult": 0.9,
+    "sellMult": 0.94
   },
   {
     "description": "HUNTER'S BOUNTY: Hunting is the primary food source; meat and hides are abundant.",
     "itemKeyword": ["TGR_FA_Hunters"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
     "buyMult": 0.9,
-    "sellMult": 0.8
+    "sellMult": 0.94
   },
   {
     "description": "METAL SCARCITY: No significant mining here. Refined metals are rare.",
     "itemKeyword": ["TGR_FA_NoMining"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
     "buyMult": 1.4,
     "sellMult": 1.2
@@ -54,7 +54,7 @@
     "itemKeyword": ["TGR_FA_Academic"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
     "buyMult": 1.5,
     "sellMult": 1.3
@@ -64,7 +64,7 @@
     "itemKeyword": ["TGR_FA_Smithing"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["FalkreathHoldLocation","FalkreathLocation"]
+      "locations": ["FalkreathHoldLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.1

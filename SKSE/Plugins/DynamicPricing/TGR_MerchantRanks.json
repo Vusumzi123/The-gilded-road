@@ -4,39 +4,39 @@
         "conditions": {
             "conditionForm" : "TGR_isMerchantNovice"
         },
-        "buyMult": 0.9,
-        "sellMult": 1.1
+        "buyMult": 1.1,
+        "sellMult": 1.2
     },
     {
         "description": "MERCHANT RANK: APPRENTICE. (e.g. General Goods stores in small villages)",
         "conditions": {
             "conditionForm" : "TGR_isMerchantApprentice"
         },
-        "buyMult": 0.95,
-        "sellMult": 1.05
+        "buyMult": 1.15,
+        "sellMult": 1.15
     },
     {
         "description": "MERCHANT RANK: ADEPT. Standard Merchants. (e.g. Whiterun Market)",
         "conditions": {
             "conditionForm" : "TGR_isMerchantAdept"
         },
-        "buyMult": 1.0,
-        "sellMult": 1.0
+        "buyMult": 1.2,
+        "sellMult": 1.1
     },
     {
         "description": "MERCHANT RANK: EXPERT. Tough negotiators. (e.g. Blacksmiths, Court Wizards)",
         "conditions": {
             "conditionForm" : "TGR_isMerchantExpert"
         },
-        "buyMult": 1.1,
-        "sellMult": 0.9
+        "buyMult": 1.25,
+        "sellMult": 1.05
     },
     {
         "description": "MERCHANT RANK: MASTER. The best in Skyrim. (e.g. East Empire Company, Ri'saad)",
         "conditions": {
             "conditionForm" : "TGR_isMerchantMaster"
         },
-        "buyMult": 1.25,
-        "sellMult": 0.75
+        "buyMult": 1,
+        "sellMult": 1.3
     }
 ]

@@ -4,47 +4,47 @@
     "itemKeyword": ["TGR_WI_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
+      "locations": ["WinterholdHoldLocation"]
     },
-    "buyMult": 0.6,
-    "sellMult": 0.6
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "WINTERHOLD GLOBAL DEFICIT: Survival Goods (Food, Wood, Metals). Extreme scarcity.",
     "itemKeyword": ["TGR_WI_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
+      "locations": ["WinterholdHoldLocation"]
     },
-    "buyMult": 2.6,
-    "sellMult": 2.6
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "COLLEGE REJECTS: Staves and Robes flooded by students.",
     "itemKeyword": ["TGR_WI_CollegeOutput"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
+      "locations": ["WinterholdHoldLocation"]
     },
-    "buyMult": 0.8,
-    "sellMult": 0.6
+    "buyMult": 0.85,
+    "sellMult": 0.91
   },
   {
     "description": "FROST YIELD: Ice Wraiths and Atronachs are common pests.",
     "itemKeyword": ["TGR_WI_FrostYield"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
+      "locations": ["WinterholdHoldLocation"]
     },
-    "buyMult": 0.7,
-    "sellMult": 0.5
+    "buyMult": 0.85,
+    "sellMult": 0.9
   },
   {
     "description": "WARMTH PREMIUM: Alcohol and Fur are critical for survival.",
     "itemKeyword": ["TGR_WI_Warmth"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WinterholdHoldLocation","WinterholdLocation"]
+      "locations": ["WinterholdHoldLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.1

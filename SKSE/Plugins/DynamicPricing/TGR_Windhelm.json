@@ -4,47 +4,47 @@
     "itemKeyword": ["TGR_WH_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 0.85,
-    "sellMult": 0.85
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "WINDHELM GLOBAL DEFICIT: The frozen tundra yields no crops. Wheat, wood, and cloth are expensive imports.",
     "itemKeyword": ["TGR_WH_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 2.6,
-    "sellMult": 2.6
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "GLOOMBOUND MONOPOLY: Nearby Orc stronghold mines produce massive ebony. It is surprisingly cheap here.",
     "itemKeyword": ["TGR_WH_Gloombound"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 0.7,
-    "sellMult": 0.4
+    "buyMult": 0.85,
+    "sellMult": 0.89
   },
   {
     "description": "THE WAR MACHINE: Oengul War-Anvil pumps out cheap steel for the rebellion. The market is flooded.",
     "itemKeyword": ["TGR_WH_WarMachine"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 0.8,
-    "sellMult": 0.5
+    "buyMult": 0.85,
+    "sellMult": 0.90
   },
   {
     "description": "THE STARVATION: The Starvation Premium. Fresh crops are non-existent. Merchants pay double for bread.",
     "itemKeyword": ["TGR_WH_Starvation"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
     "buyMult": 1.5,
     "sellMult": 1.4
@@ -54,17 +54,17 @@
     "itemKeyword": ["TGR_WH_VolcanicFlora"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 0.6,
-    "sellMult": 0.3
+    "buyMult": 0.86,
+    "sellMult": 0.90
   },
   {
     "description": "GREY QUARTER COMFORTS: High demand for luxury comforts and moon sugar to escape the cold and misery.",
     "itemKeyword": ["TGR_WH_Comforts"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
     "buyMult": 1.3,
     "sellMult": 1.2
@@ -74,9 +74,9 @@
     "itemKeyword": ["TGR_WH_HorkerIndustry"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["EastmarchHoldLocation","WindhelmLocation"]
+      "locations": ["EastmarchHoldLocation"]
     },
-    "buyMult": 0.6,
-    "sellMult": 0.4
+    "buyMult": 0.85,
+    "sellMult": 0.89
   }
 ]

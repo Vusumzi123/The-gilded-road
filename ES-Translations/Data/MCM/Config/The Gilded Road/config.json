@@ -12,17 +12,17 @@
             "pageDisplayName": "General",
             "content": [
                 {
-                    "text": "Main Control",
+                    "text": "Control principal",
                     "type": "header"
                 },
                 {
-                    "text": "Mod Features",
+                    "text": "Características del mod",
                     "type": "header"
                 },
                 {
-                    "text": "Mod Active",
+                    "text": "Mod activo",
                     "type": "toggle",
-                    "help": "Toggles the main functionality of the mod.",
+                    "help": "Activa o desactiva la funcionalidad principal del mod.",
                     "groupControl": 1,
                     "valueOptions": {
                         "sourceType": "GlobalValue",
@@ -30,10 +30,10 @@
                     }
                 },
                 {
-                    "text": "Locational Prices",
+                    "text": "Precios regionales",
                     "type": "toggle",
                     "groupCondition": 1,
-                    "help": "Enable or disable the Locational multipliers.",
+                    "help": "Habilitar o deshabilitar los multiplicadores de precios regionales.",
                     "valueOptions": {
                         "sourceType": "GlobalValue",
                         "sourceForm": "The Gilded Road.esp|D74"
@@ -43,10 +43,10 @@
                     "type": "empty"
                 },
                 {
-                    "text": "NPC Barter Scaling",
+                    "text": "Escala de intercambio con NPCs",
                     "type": "toggle",
                     "groupCondition": 1,
-                    "help": "Enable or disable the Barter Scaling applied to vendors.",
+                    "help": "Habilitar o deshabilitar la escala de intercambio con NPCs.",
                     "valueOptions": {
                         "sourceType": "GlobalValue",
                         "sourceForm": "The Gilded Road.esp|801"
@@ -56,10 +56,10 @@
                     "type": "empty"
                 },
                 {
-                    "text": "Specialist Pricing",
+                    "text": "Precios de especialistas",
                     "type": "toggle",
                     "groupCondition": 1,
-                    "help": "Enable or disable the Specialist Pricing feature. (Blacksmiths, Alchemists, etc.)",
+                    "help": "Habilitar o deshabilitar la escala de precios de especialistas (herreros, alquimistas, etc.).",
                     "valueOptions": {
                         "sourceType": "GlobalValue",
                         "sourceForm": "The Gilded Road.esp|807"
@@ -69,19 +69,19 @@
                     "type": "empty"
                 },
                 {
-                    "text": "Difficulty Level",
+                    "text": "Nivel de dificultad",
                     "type": "stepper",
                     "groupCondition": 1,
-                    "help": "Choose the difficulty level for the mod features.",
+                    "help": "Selecciona el nivel de dificultad para la economía del mod.",
                     "valueOptions": {
                         "sourceType": "GlobalValue",
                         "sourceForm": "The Gilded Road.esp|80A",
                         "options": [
-                            "Novice",
-                            "Apprentice",
-                            "Adept",
-                            "Expert",
-                            "Master"
+                            "Novato",
+                            "Aprendiz",
+                            "Adepto",
+                            "Experto",
+                            "Maestro"
                         ]
                     }
                 }

@@ -1,0 +1,111 @@
+{ 
+    "rules": [
+        {
+            "friendlyName": "Distribute Building Materials to only merchants in Whiterun",
+            "conditions": {
+                "containers" : [
+                    "MerchantWhiterunBelethorsGoodsChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01", "BYOHMaterialStraw"],
+                    "count": 10
+                },
+                {
+                    "add": [ "BYOHMaterialClay", "BYOHMaterialStoneBlock"],
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "friendlyName": "Distribute Building Materials to merchants in Markarth",
+            "conditions": {
+                "containers" : [
+                    "MerchantMarkarthArnleifandSonsChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01" ],
+                    "count": 2
+                },
+                {
+                    "add": [ "BYOHMaterialClay", "BYOHMaterialStoneBlock" ],
+                    "count": 16
+                }
+            ]
+        },
+        {
+            "friendlyName": "Distribute X to only merhcants in Riften",
+            "conditions": {
+                "containers" : [
+                    "MerchantRiftenPawnedPrawnChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01", "BYOHMaterialClay", "BYOHMaterialStoneBlock" ],
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "friendlyName": "Distribute X to only merhcants in Riften",
+            "conditions": {
+                "containers" : [
+                    "MerchantWindhelmNiranyeChest",
+                    "MerchantRiverwoodTraderChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01" ],
+                    "count": 8
+                },
+                {
+                    "add": [ "BYOHMaterialClay", "BYOHMaterialStoneBlock" ],
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "friendlyName": "Distribute X to only merhcants in Riften",
+            "conditions": {
+                "containers" : [
+                    "MerchantWinterholdBirnaChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01", "BYOHMaterialClay", "BYOHMaterialStoneBlock" ],
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "friendlyName": "Distribute X to only merhcants in Riften",
+            "conditions": {
+                "containers" : [
+                    "MerchantFalkreathGrayPineGoodsChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ "Firewood01"],
+                    "count": 18
+                },
+                {
+                    "add": [ "BYOHMaterialClay", "BYOHMaterialStoneBlock" ],
+                    "count": 12
+                }
+            ]
+        }
+    ]
+}

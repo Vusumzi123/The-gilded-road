@@ -1,0 +1,96 @@
+{ 
+    "rules": [
+        {
+            "friendlyName": "Morthal is the Alchemical Capital. Lami has EVERYTHING.",
+            "conditions": {
+                "containers" : [
+                    "MerchantMorthalLamisChest"
+                ],
+                "allowVendors": true
+            },
+            "changes": [
+                {
+                    "add": [ 
+                        "0x0516C8|Skyrim.esm",
+                        "0x07E8C1|Skyrim.esm",
+                        "0x07E8B7|Skyrim.esm"
+                    ],
+                    "count": 30
+                },
+                {
+                    "add": [ 
+                        "0x06ABCB|Skyrim.esm" ],
+                    "count": 25
+                },
+                {
+                    "add": [ 
+                        "0x059B86|Skyrim.esm",
+                        "0x0889A2|Skyrim.esm",
+                        "0x06AC4A|Skyrim.esm",
+                        "0x03F7F8|Skyrim.esm",
+                        "0x045C28|Skyrim.esm",
+                        "0x05076E|Skyrim.esm",
+                        "0x03AD63|Skyrim.esm",
+                        "0x03AD5D|Skyrim.esm",
+                        "0x03AD72|Skyrim.esm"
+                    ],
+                    "count": 10
+                },
+                {
+                    "add": [ 
+                        "0x03AD56|Skyrim.esm",
+                        "0x09151B|Skyrim.esm" 
+                    ],
+                    "count": 20
+                },
+                {
+                    "add": [ 
+                        "0x106E1A|Skyrim.esm",
+                        "0x01B3BD|Skyrim.esm"
+                    ],
+                    "count": 27
+                },
+                {
+                    "add": [ 
+                        "0x077E1D|Skyrim.esm",
+                        "0x077E1C|Skyrim.esm",
+                        "0x077E1E|Skyrim.esm",
+                        "0x034D22|Skyrim.esm",
+                        "0x0134AA|Skyrim.esm",
+                        "0x083E64|Skyrim.esm"
+                    ],
+                    "count": 8
+                },
+                {
+                    "add": [ 
+                        "0x03AD5E|Skyrim.esm",
+                        "0x03AD5F|Skyrim.esm",
+                        "0x03AD60|Skyrim.esm",
+                        "0x03AD73|Skyrim.esm",
+                        "0x03AD76|Skyrim.esm",
+                        "0x03AD6A|Skyrim.esm",
+                        "0x06B689|Skyrim.esm",
+                        "0x03AD66|Skyrim.esm",
+                        "0x03AD71|Skyrim.esm",
+                        "0x063B5F|Skyrim.esm",
+                        "0x06BC02|Skyrim.esm",
+                        "0x06BC04|Skyrim.esm"
+                    ],
+                    "count": 6
+                },
+                {
+                    "add": [ 
+                        "0x06BC0E|Skyrim.esm",
+                        "0x03AD61|Skyrim.esm",
+                        "0x03AD64|Skyrim.esm"
+                    ],
+                    "count": 5
+                },
+                {
+                    "add": [ "0x03AD5B|Skyrim.esm"],
+                    "count": 3
+                }
+            ]
+        }
+    ]
+}

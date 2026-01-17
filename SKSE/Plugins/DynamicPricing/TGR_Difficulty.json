@@ -4,16 +4,16 @@
     "conditions": {
         "conditionForm" : "TGR_DifficultyNovice"
     },
-    "buyMult": 0.8,
-    "sellMult": 1.25
+    "buyMult": 0.9,
+    "sellMult": 1.8
   },
   {
     "description": "DIFFICULTY: APPRENTICE. A forgiving economy.",
     "conditions": {
       "conditionForm" : "TGR_DifficultyApprentice"
     },
-    "buyMult": 0.9,
-    "sellMult": 1.1
+    "buyMult": 0.95,
+    "sellMult": 1.4
   },
   {
     "description": "DIFFICULTY: ADEPT. Standard Skyrim economy.",
@@ -36,7 +36,7 @@
     "conditions": {
       "conditionForm" : "TGR_DifficultyMaster"
     },
-    "buyMult": 1.6,
-    "sellMult": 0.65
+    "buyMult": 1.4,
+    "sellMult": 0.75
   }
 ]

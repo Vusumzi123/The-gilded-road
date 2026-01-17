@@ -4,87 +4,87 @@
     "itemKeyword": ["TGR_WR_GlobalSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.85,
-    "sellMult": 0.85
+    "buyMult": 0.8,
+    "sellMult": 0.9
   },
   {
     "description": "High markup for the Cloud District nobles; ores must be imported.",
     "itemKeyword": ["TGR_WR_GlobalDeficit"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 2.6,
-    "sellMult": 2.6
+    "buyMult": 1.5,
+    "sellMult": 2.1
   },
   {
     "description": "Whiterun is the center of Skyrim’s farming. Massive supply. Merchants sell cheap but will barely pay for more.",
     "itemKeyword": ["TGR_WR_AgriSurplus"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.5,
-    "sellMult": 0.24
+    "buyMult": 0.85,
+    "sellMult": 0.88
   },
   {
     "description": "Plains flora like Lavender and Tundra Cotton grow everywhere in Whiterun; very low resale value here.",
     "itemKeyword": ["TGR_WR_PlainsFlora"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.59,
-    "sellMult": 0.36
+    "buyMult": 0.85,
+    "sellMult": 0.89
   },
   {
     "description": "Whiterun's local farms provide a constant flow of livestock products like beef, hides, and leather.",
     "itemKeyword": ["TGR_WR_LivestockStaples"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.71,
-    "sellMult": 0.48
+    "buyMult": 0.85,
+    "sellMult": 0.9
   },
   {
     "description": "Whiterun is the 'Forge of Skyrim.' Common utility gear and iron/steel items are easy to find and mass-produced.",
     "itemKeyword": ["TGR_WR_BasicUtilityGear"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.95,
-    "sellMult": 0.71
+    "buyMult": 0.9,
+    "sellMult": 0.97
   },
   {
     "description": "Home of the Honningbrew Meadery. Buying local brews is cheap, but selling them here is pointless.",
     "itemKeyword": ["TGR_WR_LocalBrews"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 0.83,
-    "sellMult": 0.48
+    "buyMult": 0.85,
+    "sellMult": 0.91
   },
   {
     "description": "High demand for luxury items in the Cloud District. Merchants charge a lot and pay well to restock fine apparel.",
     "itemKeyword": ["TGR_WR_LuxuryImports"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
     "buyMult": 1.24,
-    "sellMult": 1.1
+    "sellMult": 1.18
   },
   {
     "description": "Essential spices and salts come from the coast or caravans, driving up prices in this inland hub.",
     "itemKeyword": ["TGR_WR_ExoticSpices"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
     "buyMult": 1.2,
     "sellMult": 1.2
@@ -94,9 +94,9 @@
     "itemKeyword": ["TGR_WR_DwemerScrap"],
     "conditions": {
       "conditionForm" : "TGR_LocationMult",
-      "locations": ["WhiterunHoldLocation","WhiterunLocation"]
+      "locations": ["WhiterunHoldLocation"]
     },
-    "buyMult": 1.3,
-    "sellMult": 1.1
+    "buyMult": 1.4,
+    "sellMult": 1.3
   }
 ]
