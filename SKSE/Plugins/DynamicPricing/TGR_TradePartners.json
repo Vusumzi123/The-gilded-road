@@ -28,7 +28,7 @@
   },
   {
     "description": "SPECIALIST: Innkeepers pay premium for Raw Food (to cook).",
-    "itemKeyword": ["VendorItemFoodUncooked"],
+    "itemKeyword": ["VendorItemFoodUncooked", "TGR_IsCrop"],
     "conditions": {
       "conditionForm": "TGR_PartnerPerkMult",
       "vendorFactions": ["JobInnkeeperFaction"]

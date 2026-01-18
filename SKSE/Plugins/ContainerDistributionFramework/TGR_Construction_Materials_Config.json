@@ -1,7 +1,7 @@
 { 
     "rules": [
         {
-            "friendlyName": "Distribute Building Materials to only merchants in Whiterun",
+            "friendlyName": "Distribute Building Materials to merchants in Whiterun",
             "conditions": {
                 "containers" : [
                     "MerchantWhiterunBelethorsGoodsChest"
